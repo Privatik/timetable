@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top_and_bottom">90dp</dimen>
+    <dimen name="start_and_end">50dp</dimen>
+    <dimen name="marginback">19dp</dimen>
+    <dimen name="sizeback">60dp</dimen>
+</resources>

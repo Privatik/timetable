@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/black_late</item>
+        <item name="colorPrimaryDark">@color/black_late</item>
+        <item name="colorAccent">@color/black_late</item>
+        <item name="android:fontFamily">@font/font_comfortaa</item>
+        <item name="android:navigationBarColor">@color/black_late</item>
+    </style>
+
+    <style parent="Theme.AppCompat.Dialog" name="FullScreenDialogStyle">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/black_late</item>
+        <item name="colorPrimary">@color/black_late</item>
+        <item name="colorAccent">@color/black_late</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:navigationBarColor">@color/gray</item>
+    </style>
+</resources>

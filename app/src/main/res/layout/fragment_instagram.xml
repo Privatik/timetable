@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/instagramfon"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:textSize="30sp"
+        android:text = "@string/developer"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageButton
+        android:id="@+id/inst"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/instagram"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>
